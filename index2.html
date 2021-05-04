@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Sale Landing Page Template - Bootstrap 4+</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+        .main{
+            padding:80px 0 0;
+            background-image:url(img/hero.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment:inherit;
+            background-position:50% 50%;
+        }
+
+        .main:before{
+            background:linear-gradient(to right,#3987f4,#cd3178);
+            height:100%;
+            position:absolute;
+            left: 0;
+            top:0;
+            width:100%;
+            content:'';
+            opacity:.9;
+        }
+        /*.about{display:align-center; color:#fff;} */
+        .about{
+
+            color:#fff;
+        }
+        .about>p{font-size:;}
+        h1{font-size:40px;}
+        .button{
+            color:#fff;
+        }
+        a:hover{
+            cursor:pointer;
+        }
+        .main .button iframe{
+            margin-top:30px;
+            border:20px solid #fff;
+            width:400px;
+            height:400px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container about">
+        <h1>Landing Page for Selling Audio Files</h1>
+        <p>Use this landing page to quickly start selling your audio file(s).<br>
+            Perfect to introduce your audio books, songs, tutorials, lessons.</p>
+        </div>
+        <div class="button">
+            <p>
+                <a><i class="fa fa-arrow-circle-o-down"></i>Learn more</a> or <a><i class="fa fa-shopping-cart"></i>Buy Now</a>
+            </p>
+            <iframe width="400" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329991290&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
